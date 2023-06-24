@@ -14,8 +14,8 @@ def main():
     males = int(input("How many males are there: "))
     females = int(input("How many females are there: "))
     total_people = males + females
-    m_perc = str((males/total_people)*100)+"%"
-    f_perc = str((females/total_people)*100)+"%"
+    m_perc = (males/total_people)*100
+    f_perc = (females/total_people)*100
 
     print(f'total number of students: {total_people}')
     print(f'number of males: {males}')
